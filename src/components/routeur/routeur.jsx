@@ -10,6 +10,7 @@ function Routeur () {
  return(
     <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/kasa" element={<Home />} />
         <Route path="/place/:placeId" element={<Place />} />
         <Route path="/about" element={<About />} />
         <Route path="/error" element={<Error />} />
