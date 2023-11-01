@@ -41,6 +41,8 @@ function Place () {
         stars[i]=true;
     }
 
+    console.log(place);
+
     useEffect(()=> {
         if(place===undefined)
     {

@@ -24,7 +24,7 @@ function MainPage() {
   return (
     <main>
       <div className="bannerbox"><Banner key="banner" image={background} text="Chez vous, partout et ailleurs"></Banner></div>
-      <div className="cardbox"><div>{CardBox()}</div></div>
+      <div className="cardbox">{CardBox()}</div>
     </main> 
   );
 }
