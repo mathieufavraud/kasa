@@ -7,12 +7,12 @@ import "../../styles/index.scss";
 function Header() {
   return (
     <header>
-      <Link to="/">
+      <Link to="/kasa">
         <img src={logo} alt="logo KASA"></img>
       </Link>
       <nav>
         <div>
-          <Link to="/">Accueil</Link>
+          <Link to="/kasa">Accueil</Link>
           <Link to="about">A Propos</Link>
         </div>
       </nav>
